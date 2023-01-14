@@ -9,12 +9,17 @@
 }
 
 .box {
+  position: fixed;
   background-color: #eeeeee;
   height: 10rem;
   width: 40%;
   border-radius: 5px;
   padding: 30px;
   margin: 10rem auto;
+  top: 5vh;
+  left: 30%;
+  z-index: 100;
+  overflow: hidden;
 }
 
 h2 {
